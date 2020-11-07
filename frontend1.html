@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title></title>
+<link href="https://fonts.googleapis.com/
+css?family=josefin+Sans&display=swap" rel="stylesheet">
+<style>
+	*{
+		margin:0;
+		padding:0;
+		box-sizing: border-box;
+		font-family:'Josefin Sans', sans-serif;
+	}
+
+.main_div{ 
+	width: 180%;
+	height: 180vh;
+	position: relative;
+ }
+ .box{ 
+ 	width: 400px;
+ 	position: absolute;
+ 	top: 31%;
+ 	left: 25%;
+ 	transform: translate(-50%,-50%);
+ 	padding:50px;
+ 	background: rgba(0,0,0,8);
+ 	border-radius: 30px;
+
+  }
+.box h1{ 
+ margin-bottom: 10px;
+ color: #fff;
+ text-align: centre;
+ text-transform: capitalize;
+ }
+ .box .inputBox{
+ position: relative;
+ }
+ .box .inputBox{
+ 	width: 100%;
+ 	padding: 10px;
+ 	font-size: 16px;
+ 	color: #fff;
+ 	letter-spacing: 1px;
+ 	margin-bottom: 5px;
+ 	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	background:  transparent;
+ 	outline: none;
+
+ }
+
+.box .inputBox label{ 
+position: absolute;
+top: 0;
+left:0;
+letter-spacing: 1px;
+padding: 10px;
+font-size: 16px;
+color: #fff;
+transition: 0.5s;
+}
+.box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label{
+	top: -20px;
+	left: 0;
+    color: #03a9f4;
+    font-size:12px;
+
+}
+
+.box input[type="submit"]{ 
+background: transparent;
+border: none;
+outline: none;
+color:  #fff;
+background:  #03a9f4;
+padding:  8px 16px;
+border-radius: 5px;
+font-size: 14px;
+
+
+
+
+ }
+
+
+
+
+</style>
+
+
+
+
+
+</head>
+<body>
+
+	<div class="main_div">
+		<div class="box">
+			<h1> Agri Friend  </h1>
+			        <form method="" action=""> 
+			        <div class= " inputBox">
+					<input type="text" name="First_Name" autocomplete= "off" required>
+					<label>First_Name
+					</label>
+			        </form>
+			        <div class= " inputBox">
+					<input type="Last Name" name="Last Name" autocomplete= "off" required>
+					<label>Last Name
+					</label> 
+					
+					<div class= " inputBox">
+				    <input type="Aadhar_No." name="Aadhar_No." autocomplete= "off" required>
+				    <label>Aadhar_No.
+					</label> 
+
+
+				    <div class= " inputBox">
+				    <input type="Pan_No.:" name="Pan_No.:" autocomplete= "off" required>
+					<label>Pan_No.:
+					</label> 
+					
+
+					<div class= " inputBox">
+					<input type="Mobile No.:" name="Mobile No.:" autocomplete= "off" required>
+					<label>Mobile No.:
+					</label> 
+					
+
+					<div class= " inputBox">
+					<input type="Date of Birth:" name="Date of Birth:" autocomplete= "off" required>
+					<label>Date of Birth:
+					</label> 
+					
+
+					<div class= " inputBox">
+					<input type="Address:" name="Address:" autocomplete= "off" required>
+					<label>Address:
+					</label> 
+					
+					<div class= " inputBox">
+					<input type="City:" name="City:" autocomplete= "off" required>
+					<label>City:
+					</label> 
+					
+					<div class= " inputBox">
+					<input type="State:" name="State:" autocomplete= "off" required>
+					<label>State:
+					</label> 
+
+					<div class= " inputBox">
+					<input type="Pin Code:" name="Pin Code:" autocomplete= "off" required>
+					<label>Pin Code:
+					</label>
+					<input type="submit" name=""
+					value="Submit"> 
+				</form>
+
+				
+					
+		</div>
+</div>
+</body>
+</html>
